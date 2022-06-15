@@ -1,4 +1,7 @@
+
+
 function calcular() {
+
     let carro = document.getElementById('velo')
     let res = document.getElementById('res')
     let velo = Number(carro.value)
@@ -10,7 +13,10 @@ function calcular() {
     } else {
         res.innerHTML += `<p style="color:limegreen;"> Está tudo ok, você não foi multado :) </p>`
     }
-}
+};
+
+
+
 document.getElementById("velo")
     .addEventListener("keyup", function (event) {
         event.preventDefault();
