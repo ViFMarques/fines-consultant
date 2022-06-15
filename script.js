@@ -1,7 +1,7 @@
 function calcular() {
-    var carro = document.getElementById('velo')
-    var res = document.getElementById('res')
-    var velo = Number(carro.value)
+    let carro = document.getElementById('velo')
+    let res = document.getElementById('res')
+    let velo = Number(carro.value)
 
     res.innerHTML = `<p> A sua velocidade foi de: <strong> ${velo}km/h </strong></p>`
     res.innerHTML += `<p> E lembre-se !!! Dirija sempre com atenção e utilizando o cinto de segurança</p>`
